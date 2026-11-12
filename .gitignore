@@ -117,3 +117,14 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# APK release tooling
+.env
+.env.*
+*.keystore
+*.key
+*.pem
+.DS_Store
+node_modules/
+artifacts/.apk-*
+__pycache__/
